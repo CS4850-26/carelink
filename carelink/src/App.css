@@ -32,8 +32,12 @@
   scale: calc(1.1);
   animation: scale 0.15s ease;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.685);
-  border: 1px solid transparent;
-  border-color: #ffc629;
+  background-color: #ffcd00;
+.member-name {
+  color: #1a1a1a;}
+  .member-image {
+    border: 3px solid #1a1a1a;
+  }
 }
 
 #documents,

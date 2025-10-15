@@ -1,3 +1,9 @@
+import aashna from "./aashna.png";
+import franck from "./franck.png";
+import angel from "./angel.png";
+import ayush from "./ayush.png";
+
+
 interface GroupMember {
   img: string;
   name: string;
@@ -5,10 +11,10 @@ interface GroupMember {
 
 // Stores each member's photo and name
 const members: GroupMember[] = [
-  { img: "/aashna.png", name: "Aashna Suthar" },
-  { img: "/franck.png", name: "Franck Dipanda" },
-  { img: "/angel.png", name: "Angel Gutierrez" },
-  { img: "/ayush.png", name: "Ayush Kachhadiya" },
+  { img: aashna, name: "Aashna Suthar" },
+  { img: franck, name: "Franck Dipanda" },
+  { img: angel, name: "Angel Gutierrez" },
+  { img: ayush, name: "Ayush Kachhadiya" },
 ];
 
 function MemberInformation() {

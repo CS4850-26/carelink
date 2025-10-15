@@ -1,6 +1,7 @@
 import "./App.css";
 import MemberInformation from "./member-information";
 
+
 function App() {
   return (
     <>
@@ -35,3 +36,7 @@ function App() {
 }
 
 export default App;
+
+
+
+console.warn("Hello KSU!");
