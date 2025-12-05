@@ -1,6 +1,10 @@
 import "./App.css";
 import MemberInformation from "./member-information";
-
+import ProjectPlan from "./26-AutomationOfDigitalIntake-ProjectPlan.pdf";
+import SRS from "./P26-T1-DigitalIntake-Requirements.pdf";
+import SDD from "./P26-T1-DigitalIntake-Design.pdf";
+import DEV from "./P26-T1-DigitalIntake-Development.pdf";
+import STPSTR from "./P26-T1-AutomationofDigitalIntake-STP-STR.pdf";
 
 function App() {
   return (
@@ -12,12 +16,25 @@ function App() {
       <h2>CS 4850 - Senior Project Fall 2025</h2>
       <div id="documents">
         <h3>Documents (PDF): </h3>
-        <button>Project Plan</button>
-        <button>SRS</button>
-        <button>SDD</button>
-        <button>DEV</button>
-        <button>STP</button>
-        <button>STR</button>
+        <a href={ProjectPlan} target="_blank">
+          <button>Project Plan</button>
+        </a>
+
+        <a href={SRS} target="_blank">
+          <button>SRS</button>
+        </a>
+
+        <a href={SDD} target="_blank">
+          <button>SDD</button>
+        </a>
+
+        <a href={DEV} target="_blank">
+          <button>DEV</button>
+        </a>
+
+        <a href={STPSTR} target="_blank">
+          <button>STP/STR</button>
+        </a>
       </div>
       <br></br>
       <div id="links">
@@ -36,7 +53,5 @@ function App() {
 }
 
 export default App;
-
-
 
 console.warn("Hello KSU!");
