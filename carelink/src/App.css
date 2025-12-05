@@ -12,6 +12,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   padding-top: 30px;
   margin-bottom: 30px;
+  border: solid 2px #72727271;
 }
 
 .member-image {
@@ -33,8 +34,9 @@
   animation: scale 0.15s ease;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.685);
   background-color: #ffcd00;
-.member-name {
-  color: #1a1a1a;}
+  .member-name {
+    color: #1a1a1a;
+  }
   .member-image {
     border: 3px solid #1a1a1a;
   }
@@ -42,6 +44,8 @@
 
 #documents,
 #links {
+  border: solid 2px #72727271;
+
   background-color: #0f0e0d;
   padding-left: 20px;
   padding-bottom: 20px;
