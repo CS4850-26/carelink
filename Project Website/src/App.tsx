@@ -5,6 +5,7 @@ import SRS from "./P26-T1-DigitalIntake-Requirements.pdf";
 import SDD from "./P26-T1-DigitalIntake-Design.pdf";
 import DEV from "./P26-T1-DigitalIntake-Development.pdf";
 import STPSTR from "./P26-T1-AutomationofDigitalIntake-STP-STR.pdf";
+import FinalReport from "./Automation of Digital Intake with MS 365.pdf";
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
         <a href={STPSTR} target="_blank">
           <button>STP/STR</button>
         </a>
+        <a href={FinalReport} target="_blank">
+          <button>Final Report</button>
+        </a>
       </div>
       <br></br>
       <div id="links">
@@ -46,7 +50,9 @@ function App() {
         >
           GitHub
         </button>
-        <button>Final Presentation Video</button>
+        <a href={"https://youtu.be/kEUE8cSplf4"} target="_blank">
+          <button>Final Presentation Video</button>
+        </a>
       </div>
     </>
   );
