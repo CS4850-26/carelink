@@ -5,7 +5,7 @@ import SRS from "./P26-T1-DigitalIntake-Requirements.pdf";
 import SDD from "./P26-T1-DigitalIntake-Design.pdf";
 import DEV from "./P26-T1-DigitalIntake-Development.pdf";
 import STPSTR from "./P26-T1-AutomationofDigitalIntake-STP-STR.pdf";
-import FinalReport from "./Automation of Digital Intake with MS 365.pdf";
+import FinalReport from "./P26-T1-DigitalIntake-FinalReport.pdf";
 
 function App() {
   return (
